@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating mir_driver.egg-info
+writing mir_driver.egg-info/PKG-INFO
+writing dependency_links to mir_driver.egg-info/dependency_links.txt
+writing entry points to mir_driver.egg-info/entry_points.txt
+writing requirements to mir_driver.egg-info/requires.txt
+writing top-level names to mir_driver.egg-info/top_level.txt
+writing manifest file 'mir_driver.egg-info/SOURCES.txt'
+reading manifest file 'mir_driver.egg-info/SOURCES.txt'
+writing manifest file 'mir_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rahul/Mir_robot/install/mir_driver/lib/python3.10/site-packages/mir-driver.egg-link (link to .)
+Installing fake_mir_joint_publisher script to /home/rahul/Mir_robot/install/mir_driver/lib/mir_driver
+Installing mir_bridge script to /home/rahul/Mir_robot/install/mir_driver/lib/mir_driver
+Installing tf_remove_child_frames script to /home/rahul/Mir_robot/install/mir_driver/lib/mir_driver
+Installing time_synchronizer script to /home/rahul/Mir_robot/install/mir_driver/lib/mir_driver
+
+Installed /home/rahul/Mir_robot/build/mir_driver
+running symlink_data
+creating /home/rahul/Mir_robot/install/mir_driver/share/ament_index
+creating /home/rahul/Mir_robot/install/mir_driver/share/ament_index/resource_index
+creating /home/rahul/Mir_robot/install/mir_driver/share/ament_index/resource_index/packages
+symbolically linking /home/rahul/Mir_robot/build/mir_driver/resource/mir_driver -> /home/rahul/Mir_robot/install/mir_driver/share/ament_index/resource_index/packages
+symbolically linking /home/rahul/Mir_robot/build/mir_driver/package.xml -> /home/rahul/Mir_robot/install/mir_driver/share/mir_driver
+creating /home/rahul/Mir_robot/install/mir_driver/share/mir_driver/launch
+symbolically linking /home/rahul/Mir_robot/build/mir_driver/launch/additions_launch.py -> /home/rahul/Mir_robot/install/mir_driver/share/mir_driver/launch
+symbolically linking /home/rahul/Mir_robot/build/mir_driver/launch/mir_headless_launch.py -> /home/rahul/Mir_robot/install/mir_driver/share/mir_driver/launch
+symbolically linking /home/rahul/Mir_robot/build/mir_driver/launch/mir_launch.py -> /home/rahul/Mir_robot/install/mir_driver/share/mir_driver/launch

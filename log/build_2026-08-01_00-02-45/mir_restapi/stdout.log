@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating mir_restapi.egg-info
+writing mir_restapi.egg-info/PKG-INFO
+writing dependency_links to mir_restapi.egg-info/dependency_links.txt
+writing entry points to mir_restapi.egg-info/entry_points.txt
+writing requirements to mir_restapi.egg-info/requires.txt
+writing top-level names to mir_restapi.egg-info/top_level.txt
+writing manifest file 'mir_restapi.egg-info/SOURCES.txt'
+reading manifest file 'mir_restapi.egg-info/SOURCES.txt'
+writing manifest file 'mir_restapi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rahul/Mir_robot/install/mir_restapi/lib/python3.10/site-packages/mir-restapi.egg-link (link to .)
+Installing mir_restapi_server script to /home/rahul/Mir_robot/install/mir_restapi/lib/mir_restapi
+Installing mir_restapi_sync_time script to /home/rahul/Mir_robot/install/mir_restapi/lib/mir_restapi
+
+Installed /home/rahul/Mir_robot/build/mir_restapi
+running symlink_data
+creating /home/rahul/Mir_robot/install/mir_restapi/share/ament_index
+creating /home/rahul/Mir_robot/install/mir_restapi/share/ament_index/resource_index
+creating /home/rahul/Mir_robot/install/mir_restapi/share/ament_index/resource_index/packages
+symbolically linking /home/rahul/Mir_robot/build/mir_restapi/resource/mir_restapi -> /home/rahul/Mir_robot/install/mir_restapi/share/ament_index/resource_index/packages
+symbolically linking /home/rahul/Mir_robot/build/mir_restapi/package.xml -> /home/rahul/Mir_robot/install/mir_restapi/share/mir_restapi
+creating /home/rahul/Mir_robot/install/mir_restapi/share/mir_restapi/launch

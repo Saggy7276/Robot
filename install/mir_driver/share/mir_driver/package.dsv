@@ -1,0 +1,9 @@
+source;share/mir_driver/hook/pythonpath.ps1
+source;share/mir_driver/hook/pythonpath.dsv
+source;share/mir_driver/hook/pythonpath.sh
+source;share/mir_driver/hook/ament_prefix_path.ps1
+source;share/mir_driver/hook/ament_prefix_path.dsv
+source;share/mir_driver/hook/ament_prefix_path.sh
+source;../../build/mir_driver/share/mir_driver/hook/pythonpath_develop.ps1
+source;../../build/mir_driver/share/mir_driver/hook/pythonpath_develop.dsv
+source;../../build/mir_driver/share/mir_driver/hook/pythonpath_develop.sh

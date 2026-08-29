@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_msgs/rosidl_generator_cpp/mir_msgs/msg/detail/bms_data__struct.hpp

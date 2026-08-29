@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_msgs/rosidl_generator_c/mir_msgs/msg/battery_currents.h

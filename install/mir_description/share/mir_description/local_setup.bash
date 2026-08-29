@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_description/ament_cmake_environment_hooks/local_setup.bash

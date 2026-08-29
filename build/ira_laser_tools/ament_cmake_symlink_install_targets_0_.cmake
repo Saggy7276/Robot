@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rahul/Mir_robot/build/ira_laser_tools/laserscan_multi_merger" "/home/rahul/Mir_robot/build/ira_laser_tools/libCloudPile.a" "TARGETS" "laserscan_multi_merger" "CloudPile" "DESTINATION" "lib/ira_laser_tools")

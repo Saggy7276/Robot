@@ -1,0 +1,6 @@
+setup.py
+mir_msgs/__init__.py
+mir_msgs.egg-info/PKG-INFO
+mir_msgs.egg-info/SOURCES.txt
+mir_msgs.egg-info/dependency_links.txt
+mir_msgs.egg-info/top_level.txt

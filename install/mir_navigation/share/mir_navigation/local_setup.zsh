@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_navigation/ament_cmake_environment_hooks/local_setup.zsh

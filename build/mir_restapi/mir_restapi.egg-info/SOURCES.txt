@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+mir_restapi/__init__.py
+mir_restapi/mir_restapi_lib.py
+mir_restapi/mir_restapi_server.py
+mir_restapi/mir_restapi_sync_time.py
+mir_restapi.egg-info/PKG-INFO
+mir_restapi.egg-info/SOURCES.txt
+mir_restapi.egg-info/dependency_links.txt
+mir_restapi.egg-info/entry_points.txt
+mir_restapi.egg-info/requires.txt
+mir_restapi.egg-info/top_level.txt
+mir_restapi.egg-info/zip-safe
+resource/mir_restapi

@@ -1,0 +1,6 @@
+Invoking command in '/home/rahul/Mir_robot/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ros2_aruco_interfaces
+Invoked command in '/home/rahul/Mir_robot/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ros2_aruco_interfaces
+Invoking command in '/home/rahul/Mir_robot/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ros2_aruco_interfaces -- -j4 -l4
+Invoked command in '/home/rahul/Mir_robot/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ros2_aruco_interfaces -- -j4 -l4
+Invoking command in '/home/rahul/Mir_robot/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ros2_aruco_interfaces
+Invoked command in '/home/rahul/Mir_robot/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ros2_aruco_interfaces

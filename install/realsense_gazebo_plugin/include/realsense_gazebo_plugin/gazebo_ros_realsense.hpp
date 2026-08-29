@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/src/mir_robot/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.hpp

@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/ros2_aruco_interfaces/rosidl_generator_c/ros2_aruco_interfaces/msg/aruco_markers.h

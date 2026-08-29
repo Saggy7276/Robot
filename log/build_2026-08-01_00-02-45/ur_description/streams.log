@@ -1,0 +1,188 @@
+[0.021s] Invoking command in '/home/rahul/Mir_robot/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ur_description
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.261s] -- The CXX compiler identification is GNU 11.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.629s] -- Detecting CXX compiler ABI info - done
+[0.654s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.656s] -- Detecting CXX compile features
+[0.657s] -- Detecting CXX compile features - done
+[0.668s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.979s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.120s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.190s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[5.883s] -- Configuring done
+[5.888s] -- Generating done
+[5.893s] -- Build files have been written to: /home/rahul/Mir_robot/build/ur_description
+[5.900s] Invoked command in '/home/rahul/Mir_robot/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ur_description
+[5.906s] Invoking command in '/home/rahul/Mir_robot/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ur_description -- -j4 -l4
+[6.050s] Invoked command in '/home/rahul/Mir_robot/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ur_description -- -j4 -l4
+[6.050s] Invoking command in '/home/rahul/Mir_robot/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ur_description
+[6.074s] -- Install configuration: ""
+[6.078s] -- Execute custom install script
+[6.079s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/initial_positions.yaml
+[6.113s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[6.144s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[6.175s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[6.207s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[6.244s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[6.278s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[6.313s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[6.346s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[6.382s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[6.415s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[6.448s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[6.478s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[6.495s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[6.512s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[6.530s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[6.546s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[6.563s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[6.581s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[6.599s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[6.617s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[6.635s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[6.653s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[6.672s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[6.690s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[6.710s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[6.729s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[6.747s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[6.764s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[6.783s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[6.804s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[6.820s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[6.841s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[6.856s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[6.878s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[6.898s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[6.916s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[6.937s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[6.952s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[6.970s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[6.989s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[7.010s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[7.032s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[7.047s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[7.065s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[7.084s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[7.103s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[7.124s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[7.139s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[7.156s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[7.174s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[7.193s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[7.214s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[7.232s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[7.249s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[7.268s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[7.285s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[7.305s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[7.323s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[7.341s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[7.357s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[7.374s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[7.390s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[7.411s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[7.427s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[7.444s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[7.462s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[7.479s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[7.499s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[7.521s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[7.539s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[7.556s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[7.573s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[7.591s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[7.612s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[7.629s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[7.648s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[7.665s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[7.682s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[7.701s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[7.720s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[7.738s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[7.756s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[7.773s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[7.790s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[7.810s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[7.828s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[7.847s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[7.866s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[7.884s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[7.903s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[7.925s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[7.942s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[7.960s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[7.977s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[7.996s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[8.015s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[8.035s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[8.054s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[8.071s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[8.089s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[8.105s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[8.128s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[8.142s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[8.158s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[8.174s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[8.192s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[8.208s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[8.228s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[8.244s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[8.261s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[8.276s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[8.293s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[8.309s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[8.330s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[8.347s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[8.362s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[8.379s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[8.396s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[8.415s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[8.435s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[8.454s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[8.473s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[8.491s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[8.509s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[8.529s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[8.549s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[8.568s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[8.586s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[8.604s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[8.624s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[8.645s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[8.662s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[8.680s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[8.698s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[8.719s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[8.734s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[8.753s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[8.769s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[8.786s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[8.803s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[8.819s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[8.839s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[8.856s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[8.873s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[8.888s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[8.906s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[8.925s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[8.944s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[8.961s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[8.978s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/environment/path.sh
+[8.994s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/environment/path.dsv
+[9.012s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/local_setup.bash
+[9.033s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/local_setup.sh
+[9.052s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/local_setup.zsh
+[9.069s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/local_setup.dsv
+[9.085s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/package.dsv
+[9.103s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[9.119s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[9.140s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[9.156s] -- Symlinking: /home/rahul/Mir_robot/install/ur_description/share/ur_description/package.xml
+[9.183s] Invoked command in '/home/rahul/Mir_robot/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ur_description

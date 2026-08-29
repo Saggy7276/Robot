@@ -1,0 +1,6 @@
+Invoking command in '/home/rahul/Mir_robot/build/hello_moveit_ur': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/simple_moveit2_universal_robots_movement -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/hello_moveit_ur
+Invoked command in '/home/rahul/Mir_robot/build/hello_moveit_ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/simple_moveit2_universal_robots_movement -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/hello_moveit_ur
+Invoking command in '/home/rahul/Mir_robot/build/hello_moveit_ur': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/hello_moveit_ur -- -j4 -l4
+Invoked command in '/home/rahul/Mir_robot/build/hello_moveit_ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/hello_moveit_ur -- -j4 -l4
+Invoking command in '/home/rahul/Mir_robot/build/hello_moveit_ur': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/hello_moveit_ur
+Invoked command in '/home/rahul/Mir_robot/build/hello_moveit_ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/hello_moveit_ur

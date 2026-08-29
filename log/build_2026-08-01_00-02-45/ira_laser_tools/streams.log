@@ -1,0 +1,146 @@
+[0.033s] Invoking command in '/home/rahul/Mir_robot/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/ira_laser_tools/src/ira_laser_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ira_laser_tools
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.268s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.690s] -- Detecting CXX compile features
+[0.692s] -- Detecting CXX compile features - done
+[0.698s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.001s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.197s] -- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+[1.324s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.336s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.357s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.556s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.563s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.757s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.822s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.943s] -- Looking for pthread.h
+[2.108s] -- Looking for pthread.h - found
+[2.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.277s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.279s] -- Found Threads: TRUE  
+[2.517s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.730s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.810s] -- Checking for module 'eigen3'
+[2.843s] --   Found eigen3, version 3.4.0
+[2.910s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.910s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.987s] -- Checking for module 'flann'
+[3.018s] --   Found flann, version 1.9.1
+[3.111s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.111s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.958s] -- Checking for module 'libusb-1.0'
+[6.000s] --   Found libusb-1.0, version 1.0.25
+[6.139s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.143s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.335s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.243s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.272s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.303s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.046s] -- Found Qhull version 8.0.2
+[8.727s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.344s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.351s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.351s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.351s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.354s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.356s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.358s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.359s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.362s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.368s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.369s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.372s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.375s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.379s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.382s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.386s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.391s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.393s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.397s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.400s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.402s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.406s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.407s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.413s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.417s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.428s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.524s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.524s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.551s] [33mCMake Warning (dev) at CMakeLists.txt:37 (find_package):
+[9.552s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[9.552s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[9.552s]   command to set the policy and suppress this warning.
+[9.552s] 
+[9.552s]   CMake variable PCL_ROOT is set to:
+[9.552s] 
+[9.552s]     /usr
+[9.552s] 
+[9.553s]   For compatibility, CMake is ignoring the variable.
+[9.553s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.553s] [0m
+[9.624s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.024s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.030s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.033s] -- Configured cppcheck include dirs: /home/rahul/Mir_robot/src/ira_laser_tools/src/ira_laser_tools/include
+[10.033s] -- Configured cppcheck exclude dirs and/or files: 
+[10.040s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.040s] -- Configured cpplint exclude dirs and/or files: 
+[10.041s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.042s] -- Added test 'lint_cmake' to check CMake code style
+[10.047s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.052s] -- Added test 'uncrustify' to check C / C++ code style
+[10.052s] -- Configured uncrustify additional arguments: 
+[10.053s] -- Added test 'xmllint' to check XML markup files
+[10.067s] -- Configuring done
+[10.535s] -- Generating done
+[10.625s] -- Build files have been written to: /home/rahul/Mir_robot/build/ira_laser_tools
+[10.729s] Invoked command in '/home/rahul/Mir_robot/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/ira_laser_tools/src/ira_laser_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ira_laser_tools
+[10.739s] Invoking command in '/home/rahul/Mir_robot/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ira_laser_tools -- -j4 -l4
+[10.997s] [ 25%] [32mBuilding CXX object CMakeFiles/CloudPile.dir/src/CloudPile.cpp.o[0m
+[33.351s] [ 50%] [32m[1mLinking CXX static library libCloudPile.a[0m
+[33.910s] [ 50%] Built target CloudPile
+[33.969s] [ 75%] [32mBuilding CXX object CMakeFiles/laserscan_multi_merger.dir/src/laserscan_multi_merger.cpp.o[0m
+[69.341s] [100%] [32m[1mLinking CXX executable laserscan_multi_merger[0m
+[71.436s] [100%] Built target laserscan_multi_merger
+[71.453s] Invoked command in '/home/rahul/Mir_robot/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ira_laser_tools -- -j4 -l4
+[71.457s] Invoking command in '/home/rahul/Mir_robot/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ira_laser_tools
+[71.470s] -- Install configuration: ""
+[71.473s] -- Execute custom install script
+[71.475s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/include//ira_laser_tools/CloudPile.hpp
+[71.486s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/include//ira_laser_tools/laserscan_multi_merger.hpp
+[71.498s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_multi_merger.launch
+[71.510s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_multi_merger_launch.py
+[71.522s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_virtualizer.launch
+[71.534s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_virtualizer_launch.py
+[71.546s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/lib/ira_laser_tools/laserscan_multi_merger
+[71.558s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/lib/ira_laser_tools/libCloudPile.a
+[71.570s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ament_index/resource_index/package_run_dependencies/ira_laser_tools
+[71.582s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ament_index/resource_index/parent_prefix_path/ira_laser_tools
+[71.596s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/environment/ament_prefix_path.sh
+[71.608s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/environment/ament_prefix_path.dsv
+[71.620s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/environment/path.sh
+[71.632s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/environment/path.dsv
+[71.646s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/local_setup.bash
+[71.658s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/local_setup.sh
+[71.670s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/local_setup.zsh
+[71.683s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/local_setup.dsv
+[71.696s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/package.dsv
+[71.708s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ament_index/resource_index/packages/ira_laser_tools
+[71.721s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.734s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.746s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig.cmake
+[71.758s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig-version.cmake
+[71.770s] -- Symlinking: /home/rahul/Mir_robot/install/ira_laser_tools/share/ira_laser_tools/package.xml
+[71.785s] Invoked command in '/home/rahul/Mir_robot/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ira_laser_tools

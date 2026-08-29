@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/ros2_aruco_interfaces/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake

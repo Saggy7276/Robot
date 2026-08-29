@@ -1,0 +1,6 @@
+[submodule "src/ira_laser_tools"]
+	path = src/ira_laser_tools
+	url = https://github.com/relffok/ira_laser_tools.git
+[submodule "src/twist_stamper"]
+	path = src/twist_stamper
+	url = https://github.com/joshnewans/twist_stamper.git

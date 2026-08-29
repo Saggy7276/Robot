@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_msgs/rosidl_typesupport_introspection_cpp/mir_msgs/msg/detail/battery_currents__rosidl_typesupport_introspection_cpp.hpp

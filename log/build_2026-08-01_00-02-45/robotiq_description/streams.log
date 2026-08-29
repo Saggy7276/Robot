@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/rahul/Mir_robot/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/robotiq_description
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.470s] -- Detecting C compile features - done
+[0.478s] -- Detecting CXX compiler ABI info
+[0.657s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.684s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.186s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.355s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.360s] -- Added test 'lint_cmake' to check CMake code style
+[1.364s] -- Added test 'xmllint' to check XML markup files
+[1.366s] -- Configuring done
+[1.372s] -- Generating done
+[1.375s] -- Build files have been written to: /home/rahul/Mir_robot/build/robotiq_description
+[1.384s] Invoked command in '/home/rahul/Mir_robot/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/robotiq_description
+[1.386s] Invoking command in '/home/rahul/Mir_robot/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/robotiq_description -- -j4 -l4
+[1.461s] Invoked command in '/home/rahul/Mir_robot/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/robotiq_description -- -j4 -l4
+[1.462s] Invoking command in '/home/rahul/Mir_robot/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/robotiq_description
+[1.479s] -- Install configuration: ""
+[1.479s] -- Execute custom install script
+[1.482s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.transmission.xacro
+[1.499s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+[1.516s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper.xacro
+[1.532s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+[1.549s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_base_link.stl
+[1.567s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_link.stl
+[1.584s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl
+[1.601s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[1.621s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl
+[1.635s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/robotiq_85_coupler.stl
+[1.653s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_base_link.dae
+[1.670s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_link.dae
+[1.688s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae
+[1.706s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[1.724s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae
+[1.741s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[1.758s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[1.776s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[1.797s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[1.812s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/environment/path.sh
+[1.829s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[1.846s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/local_setup.bash
+[1.864s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/local_setup.sh
+[1.883s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[1.901s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[1.919s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/package.dsv
+[1.937s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[1.953s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[1.973s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[1.990s] -- Symlinking: /home/rahul/Mir_robot/install/robotiq_description/share/robotiq_description/package.xml
+[2.015s] Invoked command in '/home/rahul/Mir_robot/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/robotiq_description

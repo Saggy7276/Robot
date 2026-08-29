@@ -1,0 +1,164 @@
+[0.027s] Invoking command in '/home/rahul/Mir_robot/build/mir_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/mir_robot/mir_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/mir_description
+[0.146s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.461s] -- Detecting CXX compiler ABI info
+[0.685s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.723s] -- Detecting CXX compile features
+[0.724s] -- Detecting CXX compile features - done
+[0.735s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.078s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.222s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.309s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[1.317s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.439s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.455s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.479s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.694s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.696s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.697s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.796s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.802s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.015s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.075s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.184s] -- Looking for pthread.h
+[2.330s] -- Looking for pthread.h - found
+[2.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.478s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.482s] -- Found Threads: TRUE  
+[2.967s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.991s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.994s] -- Checking for module 'bullet>=2.82'
+[3.023s] --   Found bullet, version 3.05
+[3.257s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.375s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.413s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.481s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.514s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.528s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.541s] -- Searching for dependencies of ignition-math6
+[3.544s] -- Looking for OGRE...
+[3.545s] -- OGRE_PREFIX_WATCH changed.
+[3.555s] -- Checking for module 'OGRE'
+[3.587s] --   Found OGRE, version 1.9.0
+[3.664s] -- Found Ogre Ghadamon (1.9.0)
+[3.684s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.707s] -- Looking for OGRE_Paging...
+[3.725s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.725s] -- Looking for OGRE_Terrain...
+[3.749s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.749s] -- Looking for OGRE_Property...
+[3.769s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.769s] -- Looking for OGRE_RTShaderSystem...
+[3.789s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.789s] -- Looking for OGRE_Volume...
+[3.806s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.807s] -- Looking for OGRE_Overlay...
+[3.827s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.187s] -- Looking for ignition-math6 -- found version 6.16.0
+[4.192s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.194s] -- Searching for dependencies of ignition-transport8
+[4.233s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.258s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.275s] -- Checking for module 'libzmq >= 4'
+[4.302s] --   Found libzmq , version 4.3.4
+[4.414s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.434s] -- Checking for module 'uuid'
+[4.499s] --   Found uuid, version 2.37.2
+[4.662s] -- Found UUID: TRUE  
+[4.680s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.681s] -- Searching for dependencies of ignition-msgs5
+[4.789s] -- Looking for ignition-math6 -- found version 6.16.0
+[4.819s] -- Checking for module 'tinyxml2'
+[4.895s] --   Found tinyxml2, version 9.0.0
+[5.027s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.033s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.036s] -- Searching for dependencies of ignition-common3
+[5.036s] -- Looking for dlfcn.h - found
+[5.039s] -- Looking for libdl - found
+[5.044s] -- Found DL: TRUE  
+[5.070s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[5.072s] -- Searching for <ignition-common3> component [graphics]
+[5.077s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.078s] -- Searching for dependencies of ignition-common3-graphics
+[5.079s] -- Looking for ignition-math6 -- found version 6.16.0
+[5.087s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.088s] -- Searching for dependencies of ignition-fuel_tools4
+[5.379s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.412s] -- Checking for module 'jsoncpp'
+[5.469s] --   Found jsoncpp, version 1.9.5
+[5.628s] -- Found JSONCPP: TRUE  
+[5.652s] -- Checking for module 'libzip'
+[5.710s] --   Found libzip, version 1.7.3
+[5.822s] -- Found ZIP: TRUE  
+[5.822s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.823s] -- Looking for ignition-math6 -- found version 6.16.0
+[5.823s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.831s] -- Gazebo version: 11.10
+[5.834s] -- Checking for module 'tbb'
+[5.876s] --   Found tbb, version 2021.5.0
+[5.991s] -- Found rviz2: 11.2.27 (/opt/ros/humble/share/rviz2/cmake)
+[6.003s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.296s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.307s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.307s] -- Added test 'lint_cmake' to check CMake code style
+[6.309s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.313s] -- Added test 'xmllint' to check XML markup files
+[6.316s] -- Configuring done
+[6.329s] -- Generating done
+[6.335s] -- Build files have been written to: /home/rahul/Mir_robot/build/mir_description
+[6.369s] Invoked command in '/home/rahul/Mir_robot/build/mir_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/mir_robot/mir_robot/mir_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/mir_description
+[6.380s] Invoking command in '/home/rahul/Mir_robot/build/mir_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/mir_description -- -j4 -l4
+[6.555s] Invoked command in '/home/rahul/Mir_robot/build/mir_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/mir_description -- -j4 -l4
+[6.594s] Invoking command in '/home/rahul/Mir_robot/build/mir_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/mir_description
+[6.634s] -- Install configuration: ""
+[6.634s] -- Execute custom install script
+[6.635s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/include/caster.urdf.xacro
+[6.650s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/include/common_properties.urdf.xacro
+[6.667s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/include/imu.gazebo.urdf.xacro
+[6.688s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/include/mir_250_v1.urdf.xacro
+[6.707s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/include/sick_s300.urdf.xacro
+[6.724s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/include/wheel.urdf.xacro
+[6.745s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/urdf/mir.urdf.xacro
+[6.795s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/rviz/mir_description.rviz
+[6.856s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/rviz/mir_visu_full.rviz
+[6.886s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/rviz/mir_visualization.rviz
+[6.912s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/collision/D435i_mounted.STL
+[6.932s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/collision/caster_wheel_base.stl
+[6.967s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/collision/mir_100_base.stl
+[6.991s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/collision/mir_250_base.stl
+[7.057s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/visual/D435i_mounted.STL
+[7.097s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/visual/caster_wheel_base.stl
+[7.127s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/visual/mir_100_base.stl
+[7.163s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/visual/mir_250_base.stl
+[7.203s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/visual/sick_lms-100.stl
+[7.236s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/meshes/visual/wheel.stl
+[7.271s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/config/diffdrive_controller.yaml
+[7.302s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/config/joint_state_controller.yaml
+[7.333s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/config/ur_manipulator.yaml
+[7.370s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/launch/mir_display_launch.py
+[7.402s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/launch/mir_launch.py
+[7.433s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/ament_index/resource_index/package_run_dependencies/mir_description
+[7.465s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/ament_index/resource_index/parent_prefix_path/mir_description
+[7.496s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/environment/ament_prefix_path.sh
+[7.532s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/environment/ament_prefix_path.dsv
+[7.562s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/environment/path.sh
+[7.579s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/environment/path.dsv
+[7.597s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/local_setup.bash
+[7.615s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/local_setup.sh
+[7.634s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/local_setup.zsh
+[7.652s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/local_setup.dsv
+[7.672s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/package.dsv
+[7.690s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/ament_index/resource_index/packages/mir_description
+[7.707s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/cmake/mir_descriptionConfig.cmake
+[7.725s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/cmake/mir_descriptionConfig-version.cmake
+[7.741s] -- Symlinking: /home/rahul/Mir_robot/install/mir_description/share/mir_description/package.xml
+[7.762s] Invoked command in '/home/rahul/Mir_robot/build/mir_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/mir_description

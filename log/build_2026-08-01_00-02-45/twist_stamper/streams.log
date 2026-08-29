@@ -1,0 +1,25 @@
+[2.223s] Invoking command in '/home/rahul/Mir_robot/build/twist_stamper': PYTHONPATH=/home/rahul/Mir_robot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Mir_robot/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/Mir_robot/build/twist_stamper/build --no-deps symlink_data
+[2.881s] running develop
+[3.391s] running egg_info
+[3.391s] creating twist_stamper.egg-info
+[3.391s] writing twist_stamper.egg-info/PKG-INFO
+[3.391s] writing dependency_links to twist_stamper.egg-info/dependency_links.txt
+[3.392s] writing entry points to twist_stamper.egg-info/entry_points.txt
+[3.392s] writing requirements to twist_stamper.egg-info/requires.txt
+[3.392s] writing top-level names to twist_stamper.egg-info/top_level.txt
+[3.392s] writing manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.396s] reading manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.398s] writing manifest file 'twist_stamper.egg-info/SOURCES.txt'
+[3.403s] running build_ext
+[3.403s] Creating /home/rahul/Mir_robot/install/twist_stamper/lib/python3.10/site-packages/twist-stamper.egg-link (link to .)
+[3.403s] Installing twist_stamper script to /home/rahul/Mir_robot/install/twist_stamper/lib/twist_stamper
+[3.403s] Installing twist_unstamper script to /home/rahul/Mir_robot/install/twist_stamper/lib/twist_stamper
+[3.403s] 
+[3.404s] Installed /home/rahul/Mir_robot/build/twist_stamper
+[3.404s] running symlink_data
+[3.404s] creating /home/rahul/Mir_robot/install/twist_stamper/share/ament_index
+[3.404s] creating /home/rahul/Mir_robot/install/twist_stamper/share/ament_index/resource_index
+[3.404s] creating /home/rahul/Mir_robot/install/twist_stamper/share/ament_index/resource_index/packages
+[3.404s] symbolically linking /home/rahul/Mir_robot/build/twist_stamper/resource/twist_stamper -> /home/rahul/Mir_robot/install/twist_stamper/share/ament_index/resource_index/packages
+[3.404s] symbolically linking /home/rahul/Mir_robot/build/twist_stamper/package.xml -> /home/rahul/Mir_robot/install/twist_stamper/share/twist_stamper
+[3.465s] Invoked command in '/home/rahul/Mir_robot/build/twist_stamper' returned '0': PYTHONPATH=/home/rahul/Mir_robot/build/twist_stamper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Mir_robot/install/twist_stamper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/Mir_robot/build/twist_stamper/build --no-deps symlink_data

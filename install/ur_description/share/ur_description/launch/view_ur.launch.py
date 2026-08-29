@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/src/mir_robot/Universal_Robots_ROS2_Description/launch/view_ur.launch.py

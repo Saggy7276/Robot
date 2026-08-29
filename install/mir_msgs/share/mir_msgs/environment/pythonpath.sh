@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_msgs/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/src/mir_robot/simple_moveit2_universal_robots_movement/launch/hello_moveit_ur_launch.py

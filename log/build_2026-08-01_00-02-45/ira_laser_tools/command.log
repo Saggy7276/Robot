@@ -1,0 +1,6 @@
+Invoking command in '/home/rahul/Mir_robot/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/ira_laser_tools/src/ira_laser_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ira_laser_tools
+Invoked command in '/home/rahul/Mir_robot/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rahul/Mir_robot/src/ira_laser_tools/src/ira_laser_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Mir_robot/install/ira_laser_tools
+Invoking command in '/home/rahul/Mir_robot/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ira_laser_tools -- -j4 -l4
+Invoked command in '/home/rahul/Mir_robot/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rahul/Mir_robot/build/ira_laser_tools -- -j4 -l4
+Invoking command in '/home/rahul/Mir_robot/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ira_laser_tools
+Invoked command in '/home/rahul/Mir_robot/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rahul/Mir_robot/build/ira_laser_tools

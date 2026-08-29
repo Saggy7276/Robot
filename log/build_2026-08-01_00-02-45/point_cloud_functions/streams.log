@@ -1,0 +1,24 @@
+[2.346s] Invoking command in '/home/rahul/Mir_robot/build/point_cloud_functions': PYTHONPATH=/home/rahul/Mir_robot/build/point_cloud_functions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Mir_robot/install/point_cloud_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/Mir_robot/build/point_cloud_functions/build --no-deps symlink_data
+[2.946s] running develop
+[3.368s] running egg_info
+[3.368s] creating point_cloud_functions.egg-info
+[3.369s] writing point_cloud_functions.egg-info/PKG-INFO
+[3.370s] writing dependency_links to point_cloud_functions.egg-info/dependency_links.txt
+[3.371s] writing entry points to point_cloud_functions.egg-info/entry_points.txt
+[3.371s] writing requirements to point_cloud_functions.egg-info/requires.txt
+[3.371s] writing top-level names to point_cloud_functions.egg-info/top_level.txt
+[3.374s] writing manifest file 'point_cloud_functions.egg-info/SOURCES.txt'
+[3.377s] reading manifest file 'point_cloud_functions.egg-info/SOURCES.txt'
+[3.379s] writing manifest file 'point_cloud_functions.egg-info/SOURCES.txt'
+[3.382s] running build_ext
+[3.384s] Creating /home/rahul/Mir_robot/install/point_cloud_functions/lib/python3.10/site-packages/point-cloud-functions.egg-link (link to .)
+[3.384s] Installing point_cloud_reader script to /home/rahul/Mir_robot/install/point_cloud_functions/lib/point_cloud_functions
+[3.385s] 
+[3.385s] Installed /home/rahul/Mir_robot/build/point_cloud_functions
+[3.386s] running symlink_data
+[3.386s] creating /home/rahul/Mir_robot/install/point_cloud_functions/share/ament_index
+[3.386s] creating /home/rahul/Mir_robot/install/point_cloud_functions/share/ament_index/resource_index
+[3.386s] creating /home/rahul/Mir_robot/install/point_cloud_functions/share/ament_index/resource_index/packages
+[3.387s] symbolically linking /home/rahul/Mir_robot/build/point_cloud_functions/resource/point_cloud_functions -> /home/rahul/Mir_robot/install/point_cloud_functions/share/ament_index/resource_index/packages
+[3.390s] symbolically linking /home/rahul/Mir_robot/build/point_cloud_functions/package.xml -> /home/rahul/Mir_robot/install/point_cloud_functions/share/point_cloud_functions
+[3.447s] Invoked command in '/home/rahul/Mir_robot/build/point_cloud_functions' returned '0': PYTHONPATH=/home/rahul/Mir_robot/build/point_cloud_functions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Mir_robot/install/point_cloud_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/Mir_robot/build/point_cloud_functions/build --no-deps symlink_data

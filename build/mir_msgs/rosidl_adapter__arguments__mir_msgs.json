@@ -1,0 +1,8 @@
+{
+  "package_name": "mir_msgs",
+  "non_idl_tuples": [
+    "/home/rahul/Mir_robot/src/mir_robot/mir_robot/mir_msgs:msg/BatteryCurrents.msg",
+    "/home/rahul/Mir_robot/src/mir_robot/mir_robot/mir_msgs:msg/BMSData.msg",
+    "/home/rahul/Mir_robot/src/mir_robot/mir_robot/mir_msgs:srv/ExecMission.srv"
+  ]
+}

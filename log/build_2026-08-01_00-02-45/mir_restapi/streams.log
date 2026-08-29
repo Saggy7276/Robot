@@ -1,0 +1,26 @@
+[2.754s] Invoking command in '/home/rahul/Mir_robot/build/mir_restapi': PYTHONPATH=/home/rahul/Mir_robot/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Mir_robot/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/Mir_robot/build/mir_restapi/build --no-deps symlink_data
+[3.362s] running develop
+[3.815s] running egg_info
+[3.816s] creating mir_restapi.egg-info
+[3.816s] writing mir_restapi.egg-info/PKG-INFO
+[3.817s] writing dependency_links to mir_restapi.egg-info/dependency_links.txt
+[3.818s] writing entry points to mir_restapi.egg-info/entry_points.txt
+[3.818s] writing requirements to mir_restapi.egg-info/requires.txt
+[3.819s] writing top-level names to mir_restapi.egg-info/top_level.txt
+[3.819s] writing manifest file 'mir_restapi.egg-info/SOURCES.txt'
+[3.823s] reading manifest file 'mir_restapi.egg-info/SOURCES.txt'
+[3.824s] writing manifest file 'mir_restapi.egg-info/SOURCES.txt'
+[3.828s] running build_ext
+[3.828s] Creating /home/rahul/Mir_robot/install/mir_restapi/lib/python3.10/site-packages/mir-restapi.egg-link (link to .)
+[3.830s] Installing mir_restapi_server script to /home/rahul/Mir_robot/install/mir_restapi/lib/mir_restapi
+[3.831s] Installing mir_restapi_sync_time script to /home/rahul/Mir_robot/install/mir_restapi/lib/mir_restapi
+[3.831s] 
+[3.831s] Installed /home/rahul/Mir_robot/build/mir_restapi
+[3.831s] running symlink_data
+[3.832s] creating /home/rahul/Mir_robot/install/mir_restapi/share/ament_index
+[3.832s] creating /home/rahul/Mir_robot/install/mir_restapi/share/ament_index/resource_index
+[3.833s] creating /home/rahul/Mir_robot/install/mir_restapi/share/ament_index/resource_index/packages
+[3.833s] symbolically linking /home/rahul/Mir_robot/build/mir_restapi/resource/mir_restapi -> /home/rahul/Mir_robot/install/mir_restapi/share/ament_index/resource_index/packages
+[3.833s] symbolically linking /home/rahul/Mir_robot/build/mir_restapi/package.xml -> /home/rahul/Mir_robot/install/mir_restapi/share/mir_restapi
+[3.834s] creating /home/rahul/Mir_robot/install/mir_restapi/share/mir_restapi/launch
+[3.890s] Invoked command in '/home/rahul/Mir_robot/build/mir_restapi' returned '0': PYTHONPATH=/home/rahul/Mir_robot/build/mir_restapi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Mir_robot/install/mir_restapi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/Mir_robot/build/mir_restapi/build --no-deps symlink_data

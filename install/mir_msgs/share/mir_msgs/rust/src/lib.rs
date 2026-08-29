@@ -1,0 +1,1 @@
+/home/rahul/Mir_robot/build/mir_msgs/rosidl_generator_rs/mir_msgs/rust/src/lib.rs
